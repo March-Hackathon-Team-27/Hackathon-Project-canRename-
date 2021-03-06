@@ -81,7 +81,7 @@ function board() {
 	for (let i = 0; i < cardsArray.length; i++) {
 		let card = document.createElement('img');
 		// set attribute of the card to the back(shamrock img) of the card
-		card.setAttribute('src', 'images/shamrock');
+		card.setAttribute('src', 'images/shamrock_tn.jpg');
 		card.setAttribute('data-id', i);
 		// add event listener to listen for click to flip the card over
 		card.addEventListener('click', flipCard);
@@ -114,8 +114,8 @@ function checkForMatches() {
 		// else statement
 	} else {
 		// else the cards don't match flip them back over (shamrock img)
-		matchCard[card1].setAttribute('src', 'images/shamrock.jpg');
-		matchCard[card2].setAttribute('src', 'images/shamrock.jpg');
+		matchCard[card1].setAttribute('src', 'images/shamrock_tn.jpg');
+		matchCard[card2].setAttribute('src', 'images/shamrock_tn.jpg');
 	}
 
 	// clear the unmatched cards
