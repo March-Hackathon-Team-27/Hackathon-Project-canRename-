@@ -1,19 +1,35 @@
+
 *{
 padding: 0;
 margin:0;
 box-sizing: border-box;
 }
+
 body{
     margin: 0 auto;
+    background-image: url("st-patricks-day-2141384.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.quiz-section{
+    padding-top: 50px;
+    max-width: 850px;
+    margin: auto;
+
 }
 h1,h2{
 text-align: center;
 }
+
 #container-quizz{
-border: 1px solid black;
+border: 3px solid #dede26;
 border-radius: 8px;
 padding-bottom: 35px;
 margin: 0 15px;
+background-color: #f7f9e8;
 }
 .show{
     display: block;
@@ -25,6 +41,7 @@ margin: 0 15px;
  font-size: 110%;
  padding: 15px;
  text-align: right;
+ margin: 0 15px;
 }
 
 #welcome, #finish{
@@ -47,7 +64,7 @@ margin-bottom: 35px;
  margin-top: 35px;
 }
 .answer{
-background-color: #CDCDCD;
+background-color: #bcd82b;
 padding: 15px;
 margin: 3px;
 border-radius: 5px;
@@ -56,24 +73,24 @@ max-width: 500px;
 }
 
 .txt--green{
-color: green;
+color: #279f47;
 padding-left: 25px;
 font-weight: bold;
 font-size: 25px;
 }
 .correct{
- /*color: green;*/
  font-weight: bold;
- background-color: green;
+ background-color: #279f47;
+ color: #ffffff;
 }
 .wrong{
- /*color: red;*/
  font-weight: bold;
  background-color: red;
+ color: #ffffff;
 }
 
 #final-score{
  font-size: 130%;
  font-weight: bold;
- color: green;
+ color: #279f47;
 }
