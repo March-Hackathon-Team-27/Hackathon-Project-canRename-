@@ -26,11 +26,11 @@ const cardsArray = [
 	},
 	{
 		name: 'cheers',
-		img: 'MGimages/cheers.jpg',
+		img: 'MGimages/cheers_tn.jpg',
 	},
 	{
 		name: 'cheers',
-		img: 'MGimages/cheers.jpg',
+		img: 'MGimages/cheers_tn.jpg',
 	},
 	{
 		name: 'rainbow',
