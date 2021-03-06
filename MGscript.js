@@ -2,31 +2,31 @@
 const cardsArray = [
 	{
 		name: 'paddyscard',
-		img: 'images/paddyscard.jpg',
+		img: 'MGimages/paddyscard.jpg',
 	},
 	{
 		name: 'paddyscard',
-		img: 'images/paddyscard.jpg',
+		img: 'MGimages/paddyscard.jpg',
 	},
 	{
 		name: 'clover',
-		img: 'images/clover.jpg',
+		img: 'MGimages/clover.jpg',
 	},
 	{
 		name: 'clover',
-		img: 'images/clover.jpg',
+		img: 'MGimages/clover.jpg',
 	},
 	{
 		name: 'beer',
-		img: 'images/beer.jpg',
+		img: 'MGimages/beer.jpg',
 	},
 	{
 		name: 'beer',
-		img: 'images/beer.jpg',
+		img: 'MGimages/beer.jpg',
 	},
 	{
 		name: 'cheers',
-		img: 'images/cheers.jpg',
+		img: 'MGimages/cheers.jpg',
 	},
 	{
 		name: 'cheers',
@@ -34,19 +34,19 @@ const cardsArray = [
 	},
 	{
 		name: 'rainbow',
-		img: 'images/rainbow.jpg',
+		img: 'MGimages/rainbow.jpg',
 	},
 	{
 		name: 'rainbow',
-		img: 'images/rainbow.jpg',
+		img: 'MGimages/rainbow.jpg',
 	},
 	{
 		name: 'clover cookies',
-		img: 'images/clover_cookies.jpg',
+		img: 'MGimages/clover_cookies.jpg',
 	},
 	{
 		name: 'clover cookies',
-		img: 'images/clover_cookies.jpg',
+		img: 'MGimages/clover_cookies.jpg',
 	},
 ];
 
@@ -81,7 +81,7 @@ function board() {
 	for (let i = 0; i < cardsArray.length; i++) {
 		let card = document.createElement('img');
 		// set attribute of the card to the back(shamrock img) of the card
-		card.setAttribute('src', 'images/shamrock_tn.jpg');
+		card.setAttribute('src', 'MGimages/shamrock_tn.jpg');
 		card.setAttribute('data-id', i);
 		// add event listener to listen for click to flip the card over
 		card.addEventListener('click', flipCard);
@@ -114,8 +114,8 @@ function checkForMatches() {
 		// else statement
 	} else {
 		// else the cards don't match flip them back over (shamrock img)
-		matchCard[card1].setAttribute('src', 'images/shamrock_tn.jpg');
-		matchCard[card2].setAttribute('src', 'images/shamrock_tn.jpg');
+		matchCard[card1].setAttribute('src', 'MGimages/shamrock_tn.jpg');
+		matchCard[card2].setAttribute('src', 'MGSimages/shamrock_tn.jpg');
 	}
 
 	// clear the unmatched cards
