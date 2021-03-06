@@ -70,6 +70,16 @@ We have 15 - 20 questions and answers
     },
     correctAnswer: 'a'
   
+  },
+  //Question7
+  {
+  question: "What is the real name of U2's frontman, better known as Bono?",
+  answers: {
+        a: "Keith O'Flaherty", 
+        b: 'Paul Hewson',
+        c: 'Michael Walton'
+  },
+  correctAnswer: 'b'
   }
 ];
     function incrementScore(){
@@ -159,11 +169,11 @@ We have 15 - 20 questions and answers
             //showHide (newPage);
             setTimeout(function(){
             showHide();
-            }, 750);  
+            }, 850);  
     });
     };
     
-   //play again  $("#start").on("click",function() 
+   //play again  
     $("#playagain").on("click",function(){
         score=0;
         page=0;
