@@ -115,7 +115,7 @@ function checkForMatches() {
 	} else {
 		// else the cards don't match flip them back over (shamrock img)
 		matchCard[card1].setAttribute('src', 'MGimages/shamrock_tn.jpg');
-		matchCard[card2].setAttribute('src', 'MGSimages/shamrock_tn.jpg');
+		matchCard[card2].setAttribute('src', 'MGimages/shamrock_tn.jpg');
 	}
 
 	// clear the unmatched cards
