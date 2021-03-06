@@ -30,7 +30,7 @@ const cardsArray = [
 	},
 	{
 		name: 'cheers',
-		img: 'images/cheers.jpg',
+		img: 'MGimages/cheers.jpg',
 	},
 	{
 		name: 'rainbow',
