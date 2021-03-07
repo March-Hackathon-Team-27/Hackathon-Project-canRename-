@@ -29,7 +29,6 @@ The owners of this website want to bring together people for a multitude of reas
 * As a returning user, I want to easily access the first game my party wish to play, so that I can share it with them.
 * As a returning user, I want to easily share the game content on my screen without too much scrolling or manipulation of the page, so that I can focus on the experience of the game.
 * As a regular user, I want to get straight to the content of the game I wish to play, so that I can get straight to enjoying my social experience.
-* As a regular user, I want to be made aware of any changes or additions to the website, so that I can try them out.
 
 ## Features
 Each page features consistent design via use of colours to facilitate an intuitive and comfortable user experience.  There is a central home page with links directly to each game for quick and easy use.
@@ -78,7 +77,50 @@ The website has a number of games to choose from, meaning users do not have to s
 
 ## Testing
 
+### User Stories Testing
+* As a first time user, I want to find out what activities the site offers and how easy they are to use, so that I can decide whether it suits the needs of my party.
+    * The home page provides a brief description of each game, and a link directly to each relevany page.
+* As a first time user, I want to be able to easily navigate to each game and try them to see if I think my party will enjoy them.
+    * The website utilises the hub and spoke design, so the user can directly access each game from the first page they encounter.
+* As a first time user, I want to easily learn what each game involves and how it works, so that I can share the idea with my party.
+    * The games can all be played standalone, so the user will be able to fully experience each game.
+* As a returning user, I want to easily access the first game my party wish to play, so that I can share it with them.
+    * The links from the homepage facilitate this, linking directly to each game page.
+* As a returning user, I want to easily share the game content on my screen without too much scrolling or manipulation of the page, so that I can focus on the experience of the game.
+    * All games are suitable for screen sharing, the quiz and match card games appear in one section which does not require scrolling.  The trivia translation cards are arranged into sections, when shared from a computer each section appears in it's entirety.
+* As a regular user, I want to get straight to the content of the game I wish to play, so that I can get straight to enjoying my social experience.
+    * Users can utilise the bookmark feature within the browser, or make use of the home page and direct links.
+    * Each page is named appropriately such that in=dentifying the desired game from history is easy.
+
+### Manual testing
+
+#### Home
+* Check tab title is displaying correctly.
+* Check all links open the correct content.
 ...
+
+#### Trivia
+* Check tab title is displaying correctly.
+* Check all links open the correct content.
+* Check that starter image and starter Gaelige text displays on all cards.
+* Check that all cards flip.
+* Check that all flipped cards have a green background, an image and English translation text.
+
+#### Quiz
+* Check tab title is displaying correctly.
+* Check all links open the correct content.
+* Check "New Game" button works.
+* Check that each question feeds back an appropriate response for right/wrong answers and the counter counts accordingly.
+
+#### Match Cards
+* Check tab title is displaying correctly.
+* Check all links open the correct content.
+* Check "New Game" button works.
+* Check that starter images all display correctly at the start of the game.
+* Check that starter image returns if an incorrect match is made.
+* Check that all tiles reveal an image, and that there are matches for each pair.
+* Check score counter increases appropriately.
+* Check that feedback message displays correctly.
 
 ## Deployment
 The website was created using [GitPod](https://www.gitpod.io/). Version control was undertaken by committing to [Git](https://git-scm.com/) and pushing to [GitHub](https://github.com/) using the functions within GitPod.
