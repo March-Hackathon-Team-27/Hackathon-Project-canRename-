@@ -103,7 +103,7 @@ font-size: 25px;
 }
 
 .container {
-  margin-top: 50px;
+  margin: 50px;
 }
 
 .btn-success {
@@ -115,7 +115,7 @@ font-size: 25px;
 
 .default {
   color: #fff !important; 
-  background: #1C8F31 !important;
+  background: #3ab54a !important;
   border: 1px solid #000 !important;
   margin: 0 5px;
 }
@@ -125,4 +125,10 @@ font-size: 25px;
   background: #fff !important;
   border: 1px solid #000;
   margin: 0 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    height: auto;
+  }
 }
