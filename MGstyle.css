@@ -1,0 +1,47 @@
+
+* {
+    background-image: url(MGimages/st-patricks-day.jpg);
+    
+}
+.grid-container {
+    display: grid;   
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 420px;
+    width: 470px;
+   
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Lobster', cursive; 
+}
+
+h2 {
+    color: gold;
+    font-family: 'Bangers', cursive;
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Life Savers', cursive; 
+}
+
+.container,
+.row,
+.col-auto {
+  background: transparent;
+}
+
+.container {
+  margin-top: 75px;
+}
+
+.btn-success {
+  color: #fff;
+  border: 1px solid #000;
+  margin: 0 5px;
+}
