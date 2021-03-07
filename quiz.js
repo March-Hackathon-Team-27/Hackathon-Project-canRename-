@@ -105,13 +105,123 @@ Array of question and mulitple choice with 1 correct answer
 
   //Question10
   {
-  question: "During which years did the Irish Potato Famine take place? ",
+  question: "During which years did the Irish Potato Famine take place?",
   answers: {
         a: '1845 – 49', 
         b: '1840 – 44',
         c: '1842 - 47'
   },
   correctAnswer: 'a'
+  },
+
+  //Question11
+  {
+  question: "Who was known as the Liberator?",
+  answers: {
+        a: 'Michael Collins', 
+        b: 'Pádraig Pearse',
+        c: "Daniel O'Connell"
+  },
+  correctAnswer: 'c'
+  },
+
+  //Question12
+  {
+  question: "What is another way name for Guinness?",
+  answers: {
+        a: 'Porter', 
+        b: 'The Black Stuff',
+        c: "The Cure"
+  },
+  correctAnswer: 'b'
+  },
+
+  //Question13
+  {
+  question: "To which county can Barack Obama trace his Irish roots?",
+  answers: {
+        a: 'Offaly', 
+        b: 'Westmeath',
+        c: 'Donegal'
+  },
+  correctAnswer: 'a'
+  },
+
+  //Question14
+  {
+  question: "Colm Meaney starred in a 1996 funny film as an unemployable middle aged man just before the Celtic Tiger period. What was the name of the film?",
+  answers: {
+        a: 'The Man', 
+        b: 'The Van',
+        c: 'Tip The Can'
+  },
+  correctAnswer: 'b'
+  },
+
+  //Question15
+  {
+  question: "Which fruity sounding band had hits with 'Linger' and 'Zombie'?",
+  answers: {
+        a: 'Eagle Eye Cherry', 
+        b: 'The Lemons',
+        c: 'The Cranberries'
+  },
+  correctAnswer: 'c'
+  },
+
+  //Question16
+  {
+  question: "Which Irish poet was awarded the Nobel Prize in 1923?",
+  answers: {
+        a: 'W.B Yeats', 
+        b: 'Brendan Behan',
+        c: 'George Bernard Shaw'
+  },
+  correctAnswer: 'a'
+  },
+
+  //Question17
+  {
+  question: "What name is given to the ball in hurling?",
+  answers: {
+        a: 'An asal', 
+        b: 'A sliotar',
+        c: 'A rothar'
+  },
+  correctAnswer: 'b'
+  },
+
+  //Question18
+  {
+  question: "Who was the giant of Northern Ireland's Giant's Causeway?",
+  answers: {
+        a: 'Cú Chulainn', 
+        b: 'Finn McCool',
+        c: 'Fir Bolg'
+  },
+  correctAnswer: 'b'
+  },
+
+   //Question19
+  {
+  question: "Which Irish town name means 'Ford of the Kings'?",
+  answers: {
+        a: 'Athenry', 
+        b: 'Clontarf',
+        c: 'Clonmel'
+  },
+  correctAnswer: 'a'
+  },
+
+  //Question19
+  {
+  question: "What type of course was created by Christy O'Conner Jr. in Tullow, Co. Carlow? ",
+  answers: {
+        a: 'Ultimate Frisbee', 
+        b: 'Race',
+        c: 'Golf '
+  },
+  correctAnswer: 'c'
   }
 ];
     function incrementScore(){
