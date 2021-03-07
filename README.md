@@ -6,13 +6,21 @@ A compact collection of simple Irish themed games or trivia which can be enjoyed
 2. A quiz for households to compare their Irish general knowledge!
 3. A card match traditional memory game, with St Patrick's Day themed images.
 
-## UX
+*-------------Am I Responsive Image here?------------------*
+
+# Index
+1. [UX Design](#ux-design)
+1. [Features](#features)
+1. [Technologies Used](#technologies-used)
+1. [Testing](#testing)
+1. [Deployment](#deployment)
+1. [Credits](#credits)
+
+## UX Design
 
 This website is for friends and family who would normally celebrate together but are unable to do so because of the lockdown.  The website provides activities to undertake together, both competetive and just for interest and fun.  The users are likely to include families, so the activities are suitable for all ages.  The users are likely to need to share the screen on a video call, so the design is clear and simple.
 
 The owners of this website want to bring together people for a multitude of reasons. St Patrick's Day is an enormous social celebration in Ireland and this website facilitates social activity to emulate that as far as possible.  It will also help those who might feel isolated in their celebration (or lack thereof) to feel included and part of the community they would normally engage with at this time of year.
-
-*-------------Am I Responsive Image here?------------------*
 
 ### User Stories
 * As a first time user, I want to find out what activities the site offers and how easy they are to use, so that I can decide whether it suits the needs of my party.
