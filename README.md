@@ -179,6 +179,7 @@ You can find more information on cloning a repository from GitHub [here](https:/
   * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template) - GitPod Template
   * [W3 Schools](https://www.w3schools.com/) - Various resources
   * [Make Thumbnails](http://www.makethumbnails.com/#dropzone) - Image resizing
+  * [W3 Schools](https://www.w3schools.com/howto/howto_css_flip_card.asp) - Card flips
   * [Codepen: Arisusaktos](https://codepen.io/arisusaktos/pen/VyPJRv) - Quiz questions
   * [Code Institute JavaScript Walkthrough Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CPJS_06_20+2020_T1/courseware/37b00154d62e4ae8a1ed1536d231b44d/99594bad5d4649ed893caaa959f22dae/) - Scrore Counter
   * [Free Code Camp](https://www.freecodecamp.org/news/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/) - Memory Game
