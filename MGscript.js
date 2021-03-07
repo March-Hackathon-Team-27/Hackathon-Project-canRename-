@@ -108,7 +108,7 @@ function checkForMatches() {
         matchCard[card1].setAttribute('src', '');
         matchCard[card2].setAttribute('src', '');
 		// add alert to tell you when you found a match
-		alert('You found matching cards!');
+		alert('You found a match!');
 		matchesWon.push(cardPicked);
         
 		// else statement
