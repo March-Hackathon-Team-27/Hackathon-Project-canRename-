@@ -6,7 +6,7 @@ A compact collection of simple Irish themed games or trivia which can be enjoyed
 2. A quiz for households to compare their Irish general knowledge!
 3. A card match traditional memory game, with St Patrick's Day themed images.
 
-*-------------Am I Responsive Image here?------------------*
+![Am I Responsive](assets/images/am-i-responsive.png)
 
 # Index
 1. [UX Design](#ux-design)
