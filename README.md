@@ -97,7 +97,6 @@ The website has a number of games to choose from, meaning users do not have to s
 #### Home
 * Check tab title is displaying correctly.
 * Check all links open the correct content.
-...
 
 #### Trivia
 * Check tab title is displaying correctly.
@@ -170,6 +169,7 @@ You can find more information on cloning a repository from GitHub [here](https:/
 
 #### Media
 * The photographs and images used in this site were obtained from:
+  * [Background for Home Page - Moore Institute](https://mooreinstitute.ie/wp-content/uploads/2020/08/Shamrock.jpg)
   * [Large background for Quiz and cards - Pixabay](https://pixabay.com/illustrations/st-patricks-day-background-clover-2141384/)
   * [Thumbnails for games - various Pexels](https://www.pexels.com/)
   * [Thumbnails for games - various Pixabay](https://pixabay.com/)
