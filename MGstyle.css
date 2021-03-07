@@ -14,7 +14,6 @@ h1 {
     color: white;
     text-align: center;
     font-family: 'Lobster', cursive; 
-    
 }
 
 h2 {
@@ -29,8 +28,18 @@ h3 {
     font-family: 'Life Savers', cursive; 
 }
 
-#restart:hover {
-    background-color: rgb(50, 162, 206);
-    color: rgb(250, 249, 249)
+.container,
+.row,
+.col-auto {
+  background: transparent;
 }
 
+.container {
+  margin-top: 50px;
+}
+
+.btn-success {
+  color: #fff;
+  border: 1px solid #000;
+  margin: 0 5px;
+}

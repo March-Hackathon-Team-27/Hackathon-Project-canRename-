@@ -1,7 +1,6 @@
 /* Quizz logic 
 The quiz starts when click on "start"
 Array of question and mulitple choice with 1 correct answer
-We have 15 - 20 questions and answers
 */
 
     //score
@@ -22,7 +21,7 @@ We have 15 - 20 questions and answers
   },
   {
     //Question2
-    question: "Which Province has the lowest counties?",
+    question: "Which Province has the lowest population?",
     answers: {
       a: 'Ulster',
       b: 'Munster',
@@ -36,7 +35,7 @@ We have 15 - 20 questions and answers
     answers: {
       a: 'Carlow',
       b: 'Louth',
-      c: 'Connacht'
+      c: 'Westmeath'
     },
     correctAnswer: 'a'
   },
@@ -44,8 +43,8 @@ We have 15 - 20 questions and answers
     //Question4
     question: "Which of these counties has the biggest population?",
     answers: {
-      a: 'Galeway',
-      b: 'Lamerick',
+      a: 'Galway',
+      b: 'Limerick',
       c: 'Cork'
     },
     correctAnswer: 'c'
@@ -80,6 +79,39 @@ We have 15 - 20 questions and answers
         c: 'Michael Walton'
   },
   correctAnswer: 'b'
+  },
+
+  //Question8
+  {
+  question: "Who was the first High King of Ireland? ",
+  answers: {
+        a: 'Niall Noígíallach', 
+        b: 'Máel Sechnaill',
+        c: 'Brian Boru'
+  },
+  correctAnswer: 'c'
+  },
+
+  //Question9
+  {
+  question: "In Ireland, the word 'grand' means what?",
+  answers: {
+        a: '€1000', 
+        b: 'Fine/Good/Ok',
+        c: 'Very Large'
+  },
+  correctAnswer: 'b'
+  },
+
+  //Question10
+  {
+  question: "During which years did the Irish Potato Famine take place? ",
+  answers: {
+        a: '1845 – 49', 
+        b: '1840 – 44',
+        c: '1842 - 47'
+  },
+  correctAnswer: 'a'
   }
 ];
     function incrementScore(){

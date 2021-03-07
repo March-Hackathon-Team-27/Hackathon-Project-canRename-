@@ -94,3 +94,10 @@ font-size: 25px;
  font-weight: bold;
  color: #279f47;
 }
+
+.btn-success {
+  color: #fff;
+  background: 55FA9F;
+  border: 1px solid #000;
+  margin: 0 5px;
+}
