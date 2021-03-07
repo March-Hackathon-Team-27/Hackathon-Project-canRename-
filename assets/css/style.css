@@ -2,6 +2,10 @@
 
 /** Title **/
 
+span {
+  font-size: 2rem;
+}
+
 .whats {
     color: green;
 }

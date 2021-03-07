@@ -2,6 +2,7 @@
 
 A compact collection of simple Irish themed games or trivia which can be enjoyed across a video call by multiple households - enabling celebration of St Patrick's Day together, but apart!
 
+1. A landing page that explains the website's function and contains links to additional pages. 
 1. Selection of trivia flip cards to try out knowledge of Irish language.
 2. A quiz for households to compare Irish general knowledge.
 3. Game of prompts, Irish themed categories where households vote for the best answer!
@@ -50,8 +51,19 @@ The website has a number of games to choose from, meaning users do not have to s
 * [CSS3](https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/)
 * [Javascript](https://www.javascript.com/)
 
-## Testing
+### Additional Technologies
+*If adding wireframes or Balsamiq
 
+## Resources
+* https://www.pexels.com/ - Images for Memory Game
+* https://pixabay.com/ - Images for Memory Game & Translation Flashcards
+* http://www.makethumbnails.com/#dropzone - Resizing images for Memory Game
+* https://www.freecodecamp.org/news/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/ - Inspiration for Memory Game
+* https://pixabay.com/illustrations/st-patricks-day-background-clover-2141384/ - Background for Quiz 
+* https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment - Inspiration for Javascript for incrememting score on quiz.html
+* https://www.w3schools.com/howto/howto_css_flip_card.asp - Flip cards tutorial for translation.html flashcards
+## Testing
+* Tested across multiple internet explorers including Chrome, Microsoft Edge, Brave and Ecosia.
 ...
 
 ## Deployment
@@ -98,25 +110,18 @@ You can find more information on cloning a repository from GitHub [here](https:/
 ### Website Credits
 
 #### Content
-* The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+* All original content on this website contributed by members of Hackathon Team 27. 
 
 #### Media
-* The photos used in this site were obtained from ...
+The photos used in this site were obtained from:
+* https://www.pexels.com/
+* https://pixabay.com/
+
 
 #### Acknowledgements
 * This project was created using the following resources:
   * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template).
 
-### README Credits
+* We would like to thank the team at Code Institute for organizing this Hackathon and providing the materials in the course for us to apply to the projects.
+* Also mentor Felipe Souza Alarcon for sound advice and guidance. 
 
-#### Content
-* Structure and content based heavily on:
-  * [Code Institute Solutions - README Template](https://github.com/Code-Institute-Solutions/readme-template)
-  * [Anna Greaves - Portrait Artist README](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
-  * [Anna Greaves - Portrait Artist TESTING](https://github.com/AJGreaves/portrait-artist/blob/master/TESTING.md)
-
-#### Media
-* The images for this README are from the following sources:
-  * Snips taken from GitHub.
-  * [Am I Responsive](http://ami.responsivedesign.is/).
-  * Wireframes created with [Balsamiq](https://balsamiq.com/).
