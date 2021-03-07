@@ -29,7 +29,7 @@ border: 3px solid #dede26;
 border-radius: 8px;
 padding-bottom: 35px;
 margin: 0 15px;
-margin-bottom: 50px;
+/* margin-bottom: 50px; */
 background-color: #f7f9e8;
 }
 
@@ -100,6 +100,10 @@ font-size: 25px;
  font-size: 130%;
  font-weight: bold;
  color: #279f47;
+}
+
+.container {
+  margin-top: 50px;
 }
 
 .btn-success {
