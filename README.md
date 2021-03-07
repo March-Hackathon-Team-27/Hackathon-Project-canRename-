@@ -2,15 +2,15 @@
 
 A compact collection of simple Irish themed games or trivia which can be enjoyed across a video call by multiple households - enabling celebration of St Patrick's Day together, but apart!
 
-1. Selection of trivia flip cards to try out knowledge of Irish language.
-2. A quiz for households to compare Irish general knowledge.
-3. Game of prompts, Irish themed categories where households vote for the best answer!
+1. Selection of trivia flip cards to try out knowledge of Gaelige.
+2. A quiz for households to compare their Irish general knowledge!
+3. A card match traditional memory game, with St Patrick's Day themed images.
 
 ## UX
 
-This website is for friends and family who would normally celebrate together but are unable to do so because of the lockdown.  The website provides activities to undertake together, bith competetive and just for interest and fun.  The users are likely to include families, so the activities are suitable for all ages.  The users are likely to need to share the screen on a video call, so the design is clear and simple.
+This website is for friends and family who would normally celebrate together but are unable to do so because of the lockdown.  The website provides activities to undertake together, both competetive and just for interest and fun.  The users are likely to include families, so the activities are suitable for all ages.  The users are likely to need to share the screen on a video call, so the design is clear and simple.
 
-The owners of this website want to bring together people for a multitude of reasons, St Par=trick's Day is an enormous social celebration in Ireland and this website facilitates social activity to emulate that as far as possible.  It will also help those who might feel isolated in their celebration (or lack thereof) to feel included and part of the community they would normally engage with at this time of year.
+The owners of this website want to bring together people for a multitude of reasons. St Patrick's Day is an enormous social celebration in Ireland and this website facilitates social activity to emulate that as far as possible.  It will also help those who might feel isolated in their celebration (or lack thereof) to feel included and part of the community they would normally engage with at this time of year.
 
 *-------------Am I Responsive Image here?------------------*
 
@@ -23,29 +23,40 @@ The owners of this website want to bring together people for a multitude of reas
 * As a regular user, I want to get straight to the content of the game I wish to play, so that I can get straight to enjoying my social experience.
 * As a regular user, I want to be made aware of any changes or additions to the website, so that I can try them out.
 
-### Wireframes
-* [Home](#)
-* [Trivia](#)
-* [Quiz](#)
-* [Quiplash](#)
-
 ## Features
-Each page features consistent design to facilitate an intuitive and comfortable user experience.  There is a central home page with links directly to each game for quick and easy use.
+Each page features consistent design via use of colours to facilitate an intuitive and comfortable user experience.  There is a central home page with links directly to each game for quick and easy use.
 
 The website has a number of games to choose from, meaning users do not have to switch through various sites to facilitate their celebration.
 1. Trivia - Designed as a conversation feeder, an interesting and topical interactive experience to encourage dialog amongst participants.
 2. Quiz - An interactive general Irish knowledge quiz.  Households can each open the page to complete the quiz and track their score, or all households can work together to try to beat the game and get top marks.  Set length to quiz to provide structure.
-3. Prompts - An open ended interactive game where a card is drawn and each household ventures an answer.  The other households vote for their favourite, keeping score off-site.  There is no set length to this game.
+3. Match Cards - An open ended interactive game where cards are matched in a memory game.  The other households vote for their favourite, keeping score off-site.  There is no set length to this game.
 
 ### Existing Features
 * Nav bar in universal standard position to help users feel intuitively at home with the site.  Uniform across all pages.
 * Bright, on-theme design to help users feel part of a wider celebration.
 * Uniform footer on every page.
 
-*--------------------Game featues here--------------------*
+#### Translation Trivia
+* Large responsive cards which display well across a shared screen.
+* Clear notation and colour response to indicate English/Gaelige display.
+* Split into easy to digest sections.
+* Cards wrap below one another as viewport scales.
+
+#### Quiz
+* Clean bright design which displays clearly across a shared screen.
+* One question per page which prevents the need to scroll and improves the user experience when shared on a video call.
+* Score counter so that households playing concurrently can all keep track of their score.
+* Clearly displayed buttons to play again or return to the homepage.
+
+#### Match Cards
+* Bright design which ties in with the celebratory theme.
+* Large clear tiles which display well across a shared screen.
+* Page response upon finding a match pair.
+* Score counter.
+* Clearly displayed buttons to play again or return to the homepage.
 
 ### Features Left to Implement
-* Additional cards
+* Video conferencing
 * Accounts and login to manage scoring retention and management
 * Leaderboard
 
@@ -53,6 +64,9 @@ The website has a number of games to choose from, meaning users do not have to s
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/)
 * [Javascript](https://www.javascript.com/)
+* [jQuery](https://jquery.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Font Awesome](https://fontawesome.com/)
 
 ## Testing
 
@@ -102,14 +116,22 @@ You can find more information on cloning a repository from GitHub [here](https:/
 ### Website Credits
 
 #### Content
-* The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+* Content is inspired by traditional experiences and of laregly original design.
 
 #### Media
-* The photos used in this site were obtained from ...
+* The photographs and images used in this site were obtained from:
+  * [Large background for Quiz and cards - Pixabay](https://pixabay.com/illustrations/st-patricks-day-background-clover-2141384/)
+  * [Thumbnails for games - various Pexels](https://www.pexels.com/)
+  * [Thumbnails for games - various Pixabay](https://pixabay.com/)
 
 #### Acknowledgements
 * This project was created using the following resources:
-  * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template).
+  * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template) - GitPod Template
+  * [W3 Schools](https://www.w3schools.com/) - Various resources
+  * [Make Thumbnails](http://www.makethumbnails.com/#dropzone) - Image resizing
+  * [Codepen: Arisusaktos](https://codepen.io/arisusaktos/pen/VyPJRv) - Quiz questions
+  * [Code Institute JavaScript Walkthrough Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CPJS_06_20+2020_T1/courseware/37b00154d62e4ae8a1ed1536d231b44d/99594bad5d4649ed893caaa959f22dae/) - Scrore Counter
+  * [Free Code Camp](https://www.freecodecamp.org/news/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/) - Memory Game
 
 ### README Credits
 
@@ -117,10 +139,8 @@ You can find more information on cloning a repository from GitHub [here](https:/
 * Structure and content based heavily on:
   * [Code Institute Solutions - README Template](https://github.com/Code-Institute-Solutions/readme-template)
   * [Anna Greaves - Portrait Artist README](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
-  * [Anna Greaves - Portrait Artist TESTING](https://github.com/AJGreaves/portrait-artist/blob/master/TESTING.md)
 
 #### Media
 * The images for this README are from the following sources:
-  * Snips taken from GitHub.
+  * Deployment snips taken from GitHub.
   * [Am I Responsive](http://ami.responsivedesign.is/).
-  * Wireframes created with [Balsamiq](https://balsamiq.com/).
