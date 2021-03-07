@@ -39,9 +39,7 @@ The website has a number of games to choose from, meaning users do not have to s
 3. Match Cards - An open ended interactive game where cards are matched in a memory game.  The other households vote for their favourite, keeping score off-site.  There is no set length to this game.
 
 ### Existing Features
-* Nav bar in universal standard position to help users feel intuitively at home with the site.  Uniform across all pages.
 * Bright, on-theme design to help users feel part of a wider celebration.
-* Uniform footer on every page.
 
 #### Translation Trivia
 * Large responsive cards which display well across a shared screen.
