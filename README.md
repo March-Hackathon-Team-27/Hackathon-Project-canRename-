@@ -62,6 +62,7 @@ The website has a number of games to choose from, meaning users do not have to s
 * https://pixabay.com/illustrations/st-patricks-day-background-clover-2141384/ - Background for Quiz 
 * https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment - Inspiration for Javascript for incrememting score on quiz.html
 * https://www.w3schools.com/howto/howto_css_flip_card.asp - Flip cards tutorial for translation.html flashcards
+* https://irishtrivia.com/customs.htm - Irish Trivia Questions
 ## Testing
 * Tested across multiple internet explorers including Chrome, Microsoft Edge, Brave and Ecosia.
 ...
