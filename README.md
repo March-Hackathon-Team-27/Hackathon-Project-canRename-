@@ -1,12 +1,16 @@
 # What's The Craic?
 
+[GitHub Pages Live Site](https://march-hackathon-team-27.github.io/Hackathon-Project-canRename-/index.html)
+
 A compact collection of simple Irish themed games or trivia which can be enjoyed across a video call by multiple households - enabling celebration of St Patrick's Day together, but apart!
 
+1. A landing page explaining the layout and purpose of the site. 
 1. Selection of trivia flip cards to try out knowledge of Gaelige.
 2. A quiz for households to compare their Irish general knowledge!
 3. A card match traditional memory game, with St Patrick's Day themed images.
 
 ![Am I Responsive](assets/images/am-i-responsive.png)
+[View the live site here](https://march-hackathon-team-27.github.io/Hackathon-Project-canRename-/index.html)
 
 # Index
 1. [UX Design](#ux-design)
@@ -95,6 +99,7 @@ The website has a number of games to choose from, meaning users do not have to s
 #### Home
 * Check tab title is displaying correctly.
 * Check all links open the correct content.
+* Tested across various screen sizes and devices (Mobile, Desktop, Tablet & Laptop) to check responsiveness.
 
 #### Trivia
 * Check tab title is displaying correctly.
@@ -102,12 +107,14 @@ The website has a number of games to choose from, meaning users do not have to s
 * Check that starter image and starter Gaelige text displays on all cards.
 * Check that all cards flip.
 * Check that all flipped cards have a green background, an image and English translation text.
+* Tested across various screen sizes and devices (Mobile, Desktop, Tablet & Laptop) to check responsiveness.
 
 #### Quiz
 * Check tab title is displaying correctly.
 * Check all links open the correct content.
 * Check "New Game" button works.
 * Check that each question feeds back an appropriate response for right/wrong answers and the counter counts accordingly.
+* Tested across various screen sizes and devices (Mobile, Desktop, Tablet & Laptop) to check responsiveness.
 
 #### Match Cards
 * Check tab title is displaying correctly.
@@ -118,6 +125,7 @@ The website has a number of games to choose from, meaning users do not have to s
 * Check that all tiles reveal an image, and that there are matches for each pair.
 * Check score counter increases appropriately.
 * Check that feedback message displays correctly.
+* Tested across various screen sizes and devices (Mobile, Desktop, Tablet & Laptop) to check responsiveness.
 
 ## Deployment
 The website was created using [GitPod](https://www.gitpod.io/). Version control was undertaken by committing to [Git](https://git-scm.com/) and pushing to [GitHub](https://github.com/) using the functions within GitPod.
