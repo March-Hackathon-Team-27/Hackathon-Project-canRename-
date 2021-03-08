@@ -2,14 +2,25 @@
 
 A compact collection of simple Irish themed games or trivia which can be enjoyed across a video call by multiple households - enabling celebration of St Patrick's Day together, but apart!
 
-1. A landing page that explains the website's function and contains links to additional pages. 
-1. Selection of trivia flip cards to try out knowledge of Irish language.
-2. A quiz for households to compare Irish general knowledge.
-3. Game of prompts, Irish themed categories where households vote for the best answer!
+1. Selection of trivia flip cards to try out knowledge of Gaelige.
+2. A quiz for households to compare their Irish general knowledge!
+3. A card match traditional memory game, with St Patrick's Day themed images.
 
-## UX
+![Am I Responsive](assets/images/am-i-responsive.png)
 
-*-------------Am I Responsive Image here?------------------*
+# Index
+1. [UX Design](#ux-design)
+1. [Features](#features)
+1. [Technologies Used](#technologies-used)
+1. [Testing](#testing)
+1. [Deployment](#deployment)
+1. [Credits](#credits)
+
+## UX Design
+
+This website is for friends and family who would normally celebrate together but are unable to do so because of the lockdown.  The website provides activities to undertake together, both competetive and just for interest and fun.  The users are likely to include families, so the activities are suitable for all ages.  The users are likely to need to share the screen on a video call, so the design is clear and simple.
+
+The owners of this website want to bring together people for a multitude of reasons. St Patrick's Day is an enormous social celebration in Ireland and this website facilitates social activity to emulate that as far as possible.  It will also help those who might feel isolated in their celebration (or lack thereof) to feel included and part of the community they would normally engage with at this time of year.
 
 ### User Stories
 * As a first time user, I want to find out what activities the site offers and how easy they are to use, so that I can decide whether it suits the needs of my party.
@@ -18,31 +29,39 @@ A compact collection of simple Irish themed games or trivia which can be enjoyed
 * As a returning user, I want to easily access the first game my party wish to play, so that I can share it with them.
 * As a returning user, I want to easily share the game content on my screen without too much scrolling or manipulation of the page, so that I can focus on the experience of the game.
 * As a regular user, I want to get straight to the content of the game I wish to play, so that I can get straight to enjoying my social experience.
-* As a regular user, I want to be made aware of any changes or additions to the website, so that I can try them out.
-
-### Wireframes
-* [Home](#)
-* [Trivia](#)
-* [Quiz](#)
-* [Quiplash](#)
 
 ## Features
-Each page features consistent design to facilitate an intuitive and comfortable user experience.  There is a central home page with links directly to each game for quick and easy use.
+Each page features consistent design via use of colours to facilitate an intuitive and comfortable user experience.  There is a central home page with links directly to each game for quick and easy use.
 
 The website has a number of games to choose from, meaning users do not have to switch through various sites to facilitate their celebration.
 1. Trivia - Designed as a conversation feeder, an interesting and topical interactive experience to encourage dialog amongst participants.
 2. Quiz - An interactive general Irish knowledge quiz.  Households can each open the page to complete the quiz and track their score, or all households can work together to try to beat the game and get top marks.  Set length to quiz to provide structure.
-3. Prompts - An open ended interactive game where a card is drawn and each household ventures an answer.  The other households vote for their favourite, keeping score off-site.  There is no set length to this game.
+3. Match Cards - An open ended interactive game where cards are matched in a memory game.  The other households vote for their favourite, keeping score off-site.  There is no set length to this game.
 
 ### Existing Features
-* Nav bar in universal standard position to help users feel intuitively at home with the site.  Uniform across all pages.
 * Bright, on-theme design to help users feel part of a wider celebration.
-* Uniform footer on every page.
 
-*--------------------Game featues here--------------------*
+#### Translation Trivia
+* Large responsive cards which display well across a shared screen.
+* Clear notation and colour response to indicate English/Gaelige display.
+* Split into easy to digest sections.
+* Cards wrap below one another as viewport scales.
+
+#### Quiz
+* Clean bright design which displays clearly across a shared screen.
+* One question per page which prevents the need to scroll and improves the user experience when shared on a video call.
+* Score counter so that households playing concurrently can all keep track of their score.
+* Clearly displayed buttons to play again or return to the homepage.
+
+#### Match Cards
+* Bright design which ties in with the celebratory theme.
+* Large clear tiles which display well across a shared screen.
+* Page response upon finding a match pair.
+* Score counter.
+* Clearly displayed buttons to play again or return to the homepage.
 
 ### Features Left to Implement
-* Additional cards
+* Video conferencing
 * Accounts and login to manage scoring retention and management
 * Leaderboard
 
@@ -50,22 +69,55 @@ The website has a number of games to choose from, meaning users do not have to s
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/)
 * [Javascript](https://www.javascript.com/)
+* [jQuery](https://jquery.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Font Awesome](https://fontawesome.com/)
 
-### Additional Technologies
-*If adding wireframes or Balsamiq
-
-## Resources
-* https://www.pexels.com/ - Images for Memory Game
-* https://pixabay.com/ - Images for Memory Game & Translation Flashcards
-* http://www.makethumbnails.com/#dropzone - Resizing images for Memory Game
-* https://www.freecodecamp.org/news/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/ - Inspiration for Memory Game
-* https://pixabay.com/illustrations/st-patricks-day-background-clover-2141384/ - Background for Quiz 
-* https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment - Inspiration for Javascript for incrememting score on quiz.html
-* https://www.w3schools.com/howto/howto_css_flip_card.asp - Flip cards tutorial for translation.html flashcards
-* https://irishtrivia.com/customs.htm - Irish Trivia Questions
 ## Testing
-* Tested across multiple internet explorers including Chrome, Microsoft Edge, Brave and Ecosia.
-...
+
+### User Stories Testing
+* As a first time user, I want to find out what activities the site offers and how easy they are to use, so that I can decide whether it suits the needs of my party.
+    * The home page provides a brief description of each game, and a link directly to each relevany page.
+* As a first time user, I want to be able to easily navigate to each game and try them to see if I think my party will enjoy them.
+    * The website utilises the hub and spoke design, so the user can directly access each game from the first page they encounter.
+* As a first time user, I want to easily learn what each game involves and how it works, so that I can share the idea with my party.
+    * The games can all be played standalone, so the user will be able to fully experience each game.
+* As a returning user, I want to easily access the first game my party wish to play, so that I can share it with them.
+    * The links from the homepage facilitate this, linking directly to each game page.
+* As a returning user, I want to easily share the game content on my screen without too much scrolling or manipulation of the page, so that I can focus on the experience of the game.
+    * All games are suitable for screen sharing, the quiz and match card games appear in one section which does not require scrolling.  The trivia translation cards are arranged into sections, when shared from a computer each section appears in it's entirety.
+* As a regular user, I want to get straight to the content of the game I wish to play, so that I can get straight to enjoying my social experience.
+    * Users can utilise the bookmark feature within the browser, or make use of the home page and direct links.
+    * Each page is named appropriately such that in=dentifying the desired game from history is easy.
+
+### Manual testing
+
+#### Home
+* Check tab title is displaying correctly.
+* Check all links open the correct content.
+
+#### Trivia
+* Check tab title is displaying correctly.
+* Check all links open the correct content.
+* Check that starter image and starter Gaelige text displays on all cards.
+* Check that all cards flip.
+* Check that all flipped cards have a green background, an image and English translation text.
+
+#### Quiz
+* Check tab title is displaying correctly.
+* Check all links open the correct content.
+* Check "New Game" button works.
+* Check that each question feeds back an appropriate response for right/wrong answers and the counter counts accordingly.
+
+#### Match Cards
+* Check tab title is displaying correctly.
+* Check all links open the correct content.
+* Check "New Game" button works.
+* Check that starter images all display correctly at the start of the game.
+* Check that starter image returns if an incorrect match is made.
+* Check that all tiles reveal an image, and that there are matches for each pair.
+* Check score counter increases appropriately.
+* Check that feedback message displays correctly.
 
 ## Deployment
 The website was created using [GitPod](https://www.gitpod.io/). Version control was undertaken by committing to [Git](https://git-scm.com/) and pushing to [GitHub](https://github.com/) using the functions within GitPod.
@@ -111,18 +163,33 @@ You can find more information on cloning a repository from GitHub [here](https:/
 ### Website Credits
 
 #### Content
-* All original content on this website contributed by members of Hackathon Team 27. 
+* Content is inspired by traditional experiences and of laregly original design.
 
 #### Media
-The photos used in this site were obtained from:
-* https://www.pexels.com/
-* https://pixabay.com/
-
+* The photographs and images used in this site were obtained from:
+  * [Background for Home Page - Moore Institute](https://mooreinstitute.ie/wp-content/uploads/2020/08/Shamrock.jpg)
+  * [Large background for Quiz and cards - Pixabay](https://pixabay.com/illustrations/st-patricks-day-background-clover-2141384/)
+  * [Thumbnails for games - various Pexels](https://www.pexels.com/)
+  * [Thumbnails for games - various Pixabay](https://pixabay.com/)
 
 #### Acknowledgements
 * This project was created using the following resources:
-  * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template).
+  * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template) - GitPod Template
+  * [W3 Schools](https://www.w3schools.com/) - Various resources
+  * [Make Thumbnails](http://www.makethumbnails.com/#dropzone) - Image resizing
+  * [W3 Schools](https://www.w3schools.com/howto/howto_css_flip_card.asp) - Card flips
+  * [Codepen: Arisusaktos](https://codepen.io/arisusaktos/pen/VyPJRv) - Quiz questions
+  * [Code Institute JavaScript Walkthrough Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CPJS_06_20+2020_T1/courseware/37b00154d62e4ae8a1ed1536d231b44d/99594bad5d4649ed893caaa959f22dae/) - Scrore Counter
+  * [Free Code Camp](https://www.freecodecamp.org/news/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/) - Memory Game
 
-* We would like to thank the team at Code Institute for organizing this Hackathon and providing the materials in the course for us to apply to the projects.
-* Also mentor Felipe Souza Alarcon for sound advice and guidance. 
+### README Credits
 
+#### Content
+* Structure and content based heavily on:
+  * [Code Institute Solutions - README Template](https://github.com/Code-Institute-Solutions/readme-template)
+  * [Anna Greaves - Portrait Artist README](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
+
+#### Media
+* The images for this README are from the following sources:
+  * Deployment snips taken from GitHub.
+  * [Am I Responsive](http://ami.responsivedesign.is/).
