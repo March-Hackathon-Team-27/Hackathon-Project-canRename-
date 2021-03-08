@@ -52,3 +52,12 @@ h3 {
   border: 1px solid #000;
   margin: 0 5px;
 }
+
+footer {
+  background: #343a40;
+}
+
+footer p {
+  color: #fff;
+  padding: 10px;
+}
