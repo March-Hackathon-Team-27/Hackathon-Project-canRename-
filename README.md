@@ -34,6 +34,10 @@ The owners of this website want to bring together people for a multitude of reas
 * As a returning user, I want to easily share the game content on my screen without too much scrolling or manipulation of the page, so that I can focus on the experience of the game.
 * As a regular user, I want to get straight to the content of the game I wish to play, so that I can get straight to enjoying my social experience.
 
+### Wireframes
+Home:
+![Home Page](assets/images/wireframe_hackathon.png)
+
 ## Features
 Each page features consistent design via use of colours to facilitate an intuitive and comfortable user experience.  There is a central home page with links directly to each game for quick and easy use.
 
